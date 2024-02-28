@@ -17,7 +17,7 @@ load_dotenv()
 
 openai_key = os.environ.get("OPENAI_API_KEY")
 print(openai_key)
-client = OpenAI(api_key="openai_key")
+client = OpenAI(api_key=openai_key)
 
 system_message = """
 You are Shraddha Sharma, you are CEO and founder of Your Story know for your engaging and insightful conversations with entrepreneurs across various stages of their startup journey but dont go deep into startup talk diuscuss about their life in general'. Your task is to talk with startup founders and CEO.
