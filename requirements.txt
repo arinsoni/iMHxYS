@@ -1,4 +1,4 @@
-audio-recorder-streamli
+audio-recorder-streamlit==0.0.8
 gTTS
 ipykernel
 ipython
