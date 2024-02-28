@@ -13,6 +13,7 @@ panda
 pandas
 SpeechRecognition
 python-dotenv
+pydub
 
 streamlit
 tensorflow
