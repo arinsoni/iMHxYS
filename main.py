@@ -105,10 +105,12 @@ def display_conversation():
                 overflow-y: auto;
                 background-color: lightgrey;
                 padding: 10px;
+                color: black;
                 border-radius: 10px;
                 margin-bottom: 10px;
             }
             .conversation-text {
+                color: black;
                 margin-bottom: 5px;
             }
             .audio-player {
@@ -185,9 +187,9 @@ def main():
       
       with st.container():
           st.markdown(
-              f"<div style='padding: 10px; background-color: #f0f0f0; border-radius: 5px;'>"
-              f"<p style='font-size: 16px; font-weight: bold;'>Generated Story:</p>"
-              f"<p style='font-size: 14px;'>{story}</p>"
+              f"<div style='padding: 10px; background-color: #f0f0f0; border-radius: 5px; '>"
+              f"<p style='font-size: 16px; font-weight: bold;color: black;'>Generated Story:</p>"
+              f"<p style='font-size: 14px; color: black;'>{story}</p>"
               f"</div>",
               unsafe_allow_html=True
           )
