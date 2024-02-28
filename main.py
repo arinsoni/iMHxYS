@@ -16,7 +16,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 openai_key = os.environ.get("OPENAI_API_KEY")
-# print(openai_key)
+print(openai_key)
 client = OpenAI(api_key=openai_key)
 
 system_message = """
