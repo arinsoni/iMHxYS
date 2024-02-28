@@ -1,19 +1,20 @@
-gTTS==2.5.1
-ipykernel==6.24.0
-ipython==8.14.0
-ipython-genutils==0.2.0
+gTTS
+ipykernel
+ipython
+ipython-genutils
 
-openai==1.12.0
-openapi-schema-pydantic==1.2.4
-opencv-contrib-python==4.9.0.80
-opencv-python==4.9.0.80
-opencv-python-headless==4.9.0.80
-panda==0.3.1
-pandas==2.2.1
+openai
+openapi-schema-pydantic
+opencv-contrib-python
+opencv-python
+opencv-python-headless
+panda
+pandas
 
-streamlit==1.31.1
-tensorflow==2.13.0
-tensorflow-estimator==2.13.0
-transformers==4.38.1
-virtualenv==20.24.0
+streamlit
+tensorflow
+tensorflow-estimator
+transformers
+virtualenv
 
+typing_extensions
