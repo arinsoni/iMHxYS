@@ -9,13 +9,15 @@ from gtts import gTTS
 import base64
 from pydub import AudioSegment
 import pandas as pd
-from dotenv import load_dotenv
+import streamlit as st
 
 
 
-load_dotenv()
 
-openai_key = os.environ.get("OPENAI_API_KEY")
+
+# openai_key = os.environ.get("OPENAI_API_KEY")
+openai_key = st.secrets["OPENAI_API_KEY"]
+
 print(openai_key)
 client = OpenAI(api_key=openai_key)
 
