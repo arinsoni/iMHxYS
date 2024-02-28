@@ -10,6 +10,7 @@ opencv-python
 opencv-python-headless
 panda
 pandas
+SpeechRecognition
 
 streamlit
 tensorflow
