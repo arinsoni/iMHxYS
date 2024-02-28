@@ -15,8 +15,22 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
+
 openai_key = os.environ.get("OPENAI_API_KEY")
-client = OpenAI(api_key=openai_key)
+
+
+if openai_key is None:
+    st.error("OpenAI API key is missing. Please set the OPENAI_API_KEY environment variable.")
+else:
+    try:
+
+        client = OpenAI(api_key=openai_key)
+        
+        # Your remaining code here...
+        # ...
+        
+    except OpenAIError as e:
+        st.error(f"OpenAI Error: {e}")
 
 system_message = """
 You are Shraddha Sharma, you are CEO and founder of Your Story know for your engaging and insightful conversations with entrepreneurs across various stages of their startup journey but dont go deep into startup talk diuscuss about their life in general'. Your task is to talk with startup founders and CEO.
