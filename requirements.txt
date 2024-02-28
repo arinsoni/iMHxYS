@@ -1,3 +1,4 @@
+audio-recorder-streamli
 gTTS
 ipykernel
 ipython
@@ -11,6 +12,7 @@ opencv-python-headless
 panda
 pandas
 SpeechRecognition
+python-dotenv
 
 streamlit
 tensorflow
